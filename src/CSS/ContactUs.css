@@ -43,25 +43,14 @@ body
 
 } */
 
-/* @media(max-width: 500px)
+@media(max-width: 500px)
 {
-    .mapLogo{
-        top: 10%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    .mapH1{
-        top: 20%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-    }
-    .mapDiv{
-        position: absolute;
-        top: 55%;
-        left: 50%;
-         transform: translate(-55%,-50%); 
-    }
-} */
+    .centerDiv{
+        display: block;
+     
+        justify-content: space-evenly;
+     }
+}
 
 /* Style inputs with type="text", select elements and textareas */
 .container input[type=text], select, textarea {
